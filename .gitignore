@@ -24,15 +24,8 @@ env/
 *.onnx
 *.engine
 
-# 数据集图片和标注 (太大不适合Git)
-**/images/
-**/labels/
-**/ANNOTATIONS/
+# 数据集缓存
 **/*.cache
-
-# 数据集路径列表
-data/train/*.txt
-CASE-AI质检/yolo-cases/steel_data/train/*.txt
 
 # 数据集压缩包
 **/steel_data.zip
